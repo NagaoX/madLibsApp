@@ -10,8 +10,9 @@ for (let i = numberOfQuestions; i >= 0; i--) {
   console.log(i);
 }
 
-for (let questionCounter = 0; questionCounter < numberOfQuestions; questionCounter++) {
-  console.log(questionCounter);
+let questionCounter = 0;
+for (let i = questionCounter; i < numberOfQuestions; i++) {
+  console.log(questionArray[i]);
 }
 
 /*
